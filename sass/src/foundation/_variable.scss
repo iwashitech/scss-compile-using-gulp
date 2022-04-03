@@ -1,0 +1,11 @@
+/* ====================================================
+  ブレークポイント用の変数一覧
+====================================================*/
+$breakpoints: (
+  'sp': 'screen and (max-width: 1021px)',
+  'pc': 'screen and (min-width: 1022px)',
+  'xl': 'screen and (max-width:699px)',
+  'lg': 'screen and (max-width:599px)',
+  'md': 'screen and (max-width:499px)',
+  'sm': 'screen and (max-width:399px)',
+) !default;

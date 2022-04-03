@@ -1,0 +1,5 @@
+@media #{map-get($breakpoints, pc)} {
+  .l-header {
+    background-color: #eee;
+  }
+}

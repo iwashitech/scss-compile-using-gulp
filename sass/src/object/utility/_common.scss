@@ -1,0 +1,36 @@
+@import "../../foundation/variable";
+
+/*================================
+  clearfix
+================================*/
+.u-clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+/*================================
+  ホバー透過クラス
+================================*/
+.u-transparent {
+  transition: opacity ease-in-out 0.3s;
+  opacity: 1;
+}
+.u-transparent:hover {
+  opacity: 0.8;
+}
+/*=========================================
+  PC/スマホのみで表示
+=========================================*/
+/* スマホ非表示（1021px以下で非表示）
+----------------------------------*/
+@media #{map-get($breakpoints, sp)} {
+  .u-hide-sp {display: none !important;}
+}
+/* PC非表示（1022px以上で非表示）
+---------------------------------*/
+@media #{map-get($breakpoints, pc)} {
+  .u-hide-pc {display: none !important;}
+}

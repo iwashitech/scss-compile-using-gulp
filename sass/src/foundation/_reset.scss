@@ -1,0 +1,26 @@
+/*================================
+  リセット
+================================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: justify;
+  -ms-text-justify: inter-ideograph;
+  text-justify: inter-ideograph;
+  font-weight: normal;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: 'helvetica neue', helvetica, arial, meiryo, sans-serif;
+  font-size: 16px;
+}
+a {
+  -webkit-tap-highlight-color: rgba(126,206,244,0.2);
+}
+img {
+  border: none;
+}

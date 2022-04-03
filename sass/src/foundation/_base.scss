@@ -1,0 +1,39 @@
+/*================================
+  ブレークポイント
+================================*/
+/* 1022px以上 */
+@media #{map-get($breakpoints, pc)} {
+  html {
+    font-size: 10px;/* rem用 */
+  }
+}
+/* ～1021px */
+@media #{map-get($breakpoints, pc)} {
+  html {
+    font-size: 18px;
+  }
+}
+/* ～699px */
+@media #{map-get($breakpoints, xl)} {
+  html {
+    font-size: 16px;
+  }
+}
+/* ～599px */
+@media #{map-get($breakpoints, lg)} {
+  html {
+    font-size: 14px;
+  }
+}
+/* ～499px */
+@media #{map-get($breakpoints, md)} {
+  html {
+    font-size: 12px;
+  }
+}
+/* ～399px */
+@media #{map-get($breakpoints, sm)} {
+  html {
+    font-size: 10px;
+  }
+}
